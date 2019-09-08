@@ -44,7 +44,7 @@ fun! s:insert_header_with_ft(ft)
             let start_line = 0
 
             let messages=[['File Name' , s:filename],
-                        \ ['Created By' , g:autoHEADER_default_author],
+                        \ ['Created By' , 'otgon'],
                         \ ['Creation Date' , '[' . strftime("%Y-%m-%d %H:%M") . ']'],
                         \ ['Last Modified' , '[AUTO_UPDATE_BEFORE_SAVE]'],
                         \ ['Description' , ' '],]

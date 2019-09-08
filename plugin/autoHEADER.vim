@@ -20,11 +20,6 @@ if !exists('g:autoHEADER_fill_char_repeat')
 endif
 
 
-if !exists('g:autoHEADER_default_author')
-    let g:autoHEADER_default_author=$USER
-endif
-
-
 if g:autoHEADER_auto_enable
     call autoHEADER#enable()
 endif
